@@ -1,0 +1,151 @@
+@charset "UTF-8";
+body
+{
+	background-color: #888895;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: actor;
+	font-style: normal;
+	font-weight: 400;
+	margin: 0;
+	height: 100%;
+	background-image: 
+}
+h1 {
+	font-family: alfa-slab-one;
+	font-style: normal;
+	font-weight: 50;
+	font-size: 2em;
+	text-align: center;
+	line-height: 1em;
+	height: 1em;
+	margin-top: 1px;
+	margin-left: 2.5%;
+	margin-bottom: 13%;
+}
+h2 {
+	font-family: alfa-slab-one;
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;
+	font-size: 1.5em;
+	color: #EE1616;
+	text-shadow: 4px 6px 16px #040404;
+}
+footer {
+	font-size: small;
+	text-align: center;
+	clear: both;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	height: 300px;
+	width: 100%;
+	padding-top: 247px;
+}
+
+
+.sectionRight {
+	width: 51%;
+	float: right;
+	margin-right: 3.5%;
+	margin-top: 3.5%;
+	margin-left: 3.5%;
+	margin-bottom: 3.5%;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+ 	background-color: #F1EBEB;
+	opacity: 0.85;
+}
+.asideLeft {
+	float: left;
+	height: 770%;
+	height: 70%;
+	padding-left: 8%;
+	padding-right: 3px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-left: -6px;
+}
+header {
+	text-align: center;
+	margin-top: 0px;
+}
+nav {
+	background-color: #E3D6D6;
+}
+.navlist {
+	list-style-type: none;
+	overflow: hidden;
+}
+.navlistitem {
+	float: left;
+}
+.navlistitem a {
+	text-decoration: none;
+	display: block;
+	padding-top: 14px;
+	padding-left: 14px;
+	padding-bottom: 14px;
+	padding-right: 14px;
+}
+.navlistitem a:hover {
+	color: #0C7295;
+	background-color:#000000;
+	
+	
+}
+.container-fluid .navbar-header .navbar-brand {
+	font-family: alfa-slab-one;
+	font-style: normal;
+	font-weight: 400;
+	color: #396D8D;
+}
+
+@media (max-width: 650px){
+.asideLeft {
+	width: 90%;
+	float: none;
+	margin-right: 5%;
+	margin-top: 30px;
+	margin-left: 5%;
+	height: 770%;
+	height: 70%;
+	padding-left: 2.5%;
+}
+.sectionRight {
+	width: 35%;
+	float: right;
+	margin-right: 2.5%;
+	margin-top: 2.5%;
+	margin-left: 2.5%;
+	margin-bottom: 2.5%;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+}
+body {
+	
+}
+h1 {
+	font-family: alfa-slab-one;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2em;
+	text-align: center;
+	line-height: 1em;
+	height: 1em;
+	margin-top: 1px;
+	margin-left: 2.5%;
+	margin-bottom: 0%;
+}
+header {
+	margin-top: 30px;
+}
+}
+
+@media screen{
+}
