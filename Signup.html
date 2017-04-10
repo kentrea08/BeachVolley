@@ -1,40 +1,82 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Signup</title>
-<link href="../../JCU/CP1406/AK/mainstyles.css" rel="stylesheet" type="text/css" />
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Slammers Beach</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body {
+	background-image: url(Unknown.png);	
+}
+</style>
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/actor:n4:default;alfa-slab-one:n4:default.js" type="text/javascript"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
 </head>
 
-<body>
-</div>
-        <div class="TabbedPanelsContent">
-        <img src="images/beachNet.jpg" width="1500" height="200" />
-        <p> </p>
-        <center><h1>SIGN UP FORM </h1></center>
+<body style="padding-top: 70px">
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topFixedNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      <a class="navbar-brand" hrf="#">Slammers Beach VolleyBall</a></div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="topFixedNavbar1">
+      <ul class="nav navbar-nav navlist">
+       
+        <li class="navlistitem"><a href="index.html">Home</a> </li>
+        <li class="navlistitem"><a href="About Volley Ball.html">About</a> </li>
+	<li class="navlistitem "><a href="Announcement.html">Announcement</a> </li>
+	<li class="navlistitem"><a href="Playing Guideline.html">Playing Guideline</a></li> 
+	<li class="navlistitem"><a href="Links.html">Links</a></li> 
+	<li class="navlistitem"><a href="Contact.html">Contact</a> </li>
+	<li class="navlistitem active"><a href="Signup.html">Signup</a></li> 
+	<li class="navlistitem"><a href="CompetitionLadder.html">Competition Ladder</a></li>
+        
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+
+<div class="TabbedPanelsContent">
+  
+        <h1>SIGN UP FORM </h1>
        <center> <form id="form1" name="form1" method="post" action=""> 
   <table width="501" border="1">
     <tr>
-      <td width="195"> Name:</td>
-      <td width="290"><label for="Fname"></label>
+		<td width="140"><b> Name:</b></td>
+      <td width="140"><label for="Fname"></label>
       <input name="Fname" type="text" id="Fname" size="50" /></td>
     </tr>
     
     <tr>
     
-      <td width="195">Phone Number:</td>
+		<td width="195"><b>Phone Number:</b></td>
       <td width="290"><label for="Ph no"></label> 
       <input name="Ph no" type="text" id="Ph no" size="50" />
       </td>
     </tr>
     <tr>
-      <td width="195"> E-Mail:</td>
+		<td width="195"> <b>E-Mail:</b></td>
       <td width="290"><label for="email"></label>
       <input name="email" type="text" id="email" size="50" /></td>
     
     
     <tr>
-      <td>Competion day</td>
+		<td><b>Competion day</b></td>
       <td><label for=""></label>
         <label for="Competition day"></label>
       <select name="Competition day" size="1" id="Competion day">
@@ -46,31 +88,30 @@
         <option value="st">Saturday</option>
       </select></td>
     </tr>
-    
-   <tr>
-      <td>Competion day</td>
+     <tr>
+		 <td><b>Competion time</b></td>
       <td><label for=""></label>
         <label for="Competition time"></label>
       <select name="Competition time" size="1" id="Competion time">
         <option value="aft">Afternoon</option>
         <option value="eve">Evening</option>
-        <>
+        
       </select></td>
     </tr>
+   
       <td></td>
       <td><input type="checkbox" name="" id="read" />
-      <label for="read">Read and Agree with our playing guidelines 
-       
+		  <label for="read">Read and Agree with our playing guidelines
+	  </label></td>
     </tr>
   </table>
   <p> </p>
  <input name="SUBMIT" type="button" value="SUBMIT" />
  <input name="RESET" type="RESET" value="RESET" /> 
  </form>
-        </center>
+  </center>
      
-        </div>
-        
-
+</div>
+	
 </body>
 </html>
